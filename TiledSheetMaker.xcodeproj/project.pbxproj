@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4728D26D196C4418003AAC57 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4728D26C196C4418003AAC57 /* Cocoa.framework */; };
+		4728D277196C4418003AAC57 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4728D275196C4418003AAC57 /* InfoPlist.strings */; };
+		4728D279196C4419003AAC57 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4728D278196C4419003AAC57 /* main.m */; };
+		4728D27D196C4419003AAC57 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 4728D27B196C4419003AAC57 /* Credits.rtf */; };
+		4728D280196C4419003AAC57 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4728D27F196C4419003AAC57 /* AppDelegate.m */; };
+		4728D283196C4419003AAC57 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4728D281196C4419003AAC57 /* MainMenu.xib */; };
+		4728D285196C4419003AAC57 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4728D284196C4419003AAC57 /* Images.xcassets */; };
+		4728D28C196C4419003AAC57 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4728D28B196C4419003AAC57 /* XCTest.framework */; };
+		4728D28D196C4419003AAC57 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4728D26C196C4418003AAC57 /* Cocoa.framework */; };
+		4728D295196C4419003AAC57 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4728D293196C4419003AAC57 /* InfoPlist.strings */; };
+		4728D297196C4419003AAC57 /* TiledSheetMakerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4728D296196C4419003AAC57 /* TiledSheetMakerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4728D28E196C4419003AAC57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4728D261196C4418003AAC57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4728D268196C4418003AAC57;
+			remoteInfo = TiledSheetMaker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4728D269196C4418003AAC57 /* TiledSheetMaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TiledSheetMaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4728D26C196C4418003AAC57 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		4728D26F196C4418003AAC57 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		4728D270196C4418003AAC57 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		4728D271196C4418003AAC57 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4728D274196C4418003AAC57 /* TiledSheetMaker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TiledSheetMaker-Info.plist"; sourceTree = "<group>"; };
+		4728D276196C4418003AAC57 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4728D278196C4419003AAC57 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4728D27A196C4419003AAC57 /* TiledSheetMaker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TiledSheetMaker-Prefix.pch"; sourceTree = "<group>"; };
+		4728D27C196C4419003AAC57 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		4728D27E196C4419003AAC57 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4728D27F196C4419003AAC57 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4728D282196C4419003AAC57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		4728D284196C4419003AAC57 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4728D28A196C4419003AAC57 /* TiledSheetMakerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TiledSheetMakerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4728D28B196C4419003AAC57 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		4728D292196C4419003AAC57 /* TiledSheetMakerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TiledSheetMakerTests-Info.plist"; sourceTree = "<group>"; };
+		4728D294196C4419003AAC57 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4728D296196C4419003AAC57 /* TiledSheetMakerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TiledSheetMakerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4728D266196C4418003AAC57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4728D26D196C4418003AAC57 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4728D287196C4419003AAC57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4728D28D196C4419003AAC57 /* Cocoa.framework in Frameworks */,
+				4728D28C196C4419003AAC57 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4728D260196C4418003AAC57 = {
+			isa = PBXGroup;
+			children = (
+				4728D272196C4418003AAC57 /* TiledSheetMaker */,
+				4728D290196C4419003AAC57 /* TiledSheetMakerTests */,
+				4728D26B196C4418003AAC57 /* Frameworks */,
+				4728D26A196C4418003AAC57 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4728D26A196C4418003AAC57 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4728D269196C4418003AAC57 /* TiledSheetMaker.app */,
+				4728D28A196C4419003AAC57 /* TiledSheetMakerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4728D26B196C4418003AAC57 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4728D26C196C4418003AAC57 /* Cocoa.framework */,
+				4728D28B196C4419003AAC57 /* XCTest.framework */,
+				4728D26E196C4418003AAC57 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4728D26E196C4418003AAC57 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4728D26F196C4418003AAC57 /* AppKit.framework */,
+				4728D270196C4418003AAC57 /* CoreData.framework */,
+				4728D271196C4418003AAC57 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		4728D272196C4418003AAC57 /* TiledSheetMaker */ = {
+			isa = PBXGroup;
+			children = (
+				4728D27E196C4419003AAC57 /* AppDelegate.h */,
+				4728D27F196C4419003AAC57 /* AppDelegate.m */,
+				4728D281196C4419003AAC57 /* MainMenu.xib */,
+				4728D284196C4419003AAC57 /* Images.xcassets */,
+				4728D273196C4418003AAC57 /* Supporting Files */,
+			);
+			path = TiledSheetMaker;
+			sourceTree = "<group>";
+		};
+		4728D273196C4418003AAC57 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4728D274196C4418003AAC57 /* TiledSheetMaker-Info.plist */,
+				4728D275196C4418003AAC57 /* InfoPlist.strings */,
+				4728D278196C4419003AAC57 /* main.m */,
+				4728D27A196C4419003AAC57 /* TiledSheetMaker-Prefix.pch */,
+				4728D27B196C4419003AAC57 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4728D290196C4419003AAC57 /* TiledSheetMakerTests */ = {
+			isa = PBXGroup;
+			children = (
+				4728D296196C4419003AAC57 /* TiledSheetMakerTests.m */,
+				4728D291196C4419003AAC57 /* Supporting Files */,
+			);
+			path = TiledSheetMakerTests;
+			sourceTree = "<group>";
+		};
+		4728D291196C4419003AAC57 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4728D292196C4419003AAC57 /* TiledSheetMakerTests-Info.plist */,
+				4728D293196C4419003AAC57 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4728D268196C4418003AAC57 /* TiledSheetMaker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4728D29A196C4419003AAC57 /* Build configuration list for PBXNativeTarget "TiledSheetMaker" */;
+			buildPhases = (
+				4728D265196C4418003AAC57 /* Sources */,
+				4728D266196C4418003AAC57 /* Frameworks */,
+				4728D267196C4418003AAC57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TiledSheetMaker;
+			productName = TiledSheetMaker;
+			productReference = 4728D269196C4418003AAC57 /* TiledSheetMaker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4728D289196C4419003AAC57 /* TiledSheetMakerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4728D29D196C4419003AAC57 /* Build configuration list for PBXNativeTarget "TiledSheetMakerTests" */;
+			buildPhases = (
+				4728D286196C4419003AAC57 /* Sources */,
+				4728D287196C4419003AAC57 /* Frameworks */,
+				4728D288196C4419003AAC57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4728D28F196C4419003AAC57 /* PBXTargetDependency */,
+			);
+			name = TiledSheetMakerTests;
+			productName = TiledSheetMakerTests;
+			productReference = 4728D28A196C4419003AAC57 /* TiledSheetMakerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4728D261196C4418003AAC57 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = juhanapaavola;
+				TargetAttributes = {
+					4728D289196C4419003AAC57 = {
+						TestTargetID = 4728D268196C4418003AAC57;
+					};
+				};
+			};
+			buildConfigurationList = 4728D264196C4418003AAC57 /* Build configuration list for PBXProject "TiledSheetMaker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4728D260196C4418003AAC57;
+			productRefGroup = 4728D26A196C4418003AAC57 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4728D268196C4418003AAC57 /* TiledSheetMaker */,
+				4728D289196C4419003AAC57 /* TiledSheetMakerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4728D267196C4418003AAC57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4728D277196C4418003AAC57 /* InfoPlist.strings in Resources */,
+				4728D285196C4419003AAC57 /* Images.xcassets in Resources */,
+				4728D27D196C4419003AAC57 /* Credits.rtf in Resources */,
+				4728D283196C4419003AAC57 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4728D288196C4419003AAC57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4728D295196C4419003AAC57 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4728D265196C4418003AAC57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4728D280196C4419003AAC57 /* AppDelegate.m in Sources */,
+				4728D279196C4419003AAC57 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4728D286196C4419003AAC57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4728D297196C4419003AAC57 /* TiledSheetMakerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4728D28F196C4419003AAC57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4728D268196C4418003AAC57 /* TiledSheetMaker */;
+			targetProxy = 4728D28E196C4419003AAC57 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4728D275196C4418003AAC57 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4728D276196C4418003AAC57 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4728D27B196C4419003AAC57 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4728D27C196C4419003AAC57 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		4728D281196C4419003AAC57 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4728D282196C4419003AAC57 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		4728D293196C4419003AAC57 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4728D294196C4419003AAC57 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4728D298196C4419003AAC57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4728D299196C4419003AAC57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4728D29B196C4419003AAC57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TiledSheetMaker/TiledSheetMaker-Prefix.pch";
+				INFOPLIST_FILE = "TiledSheetMaker/TiledSheetMaker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4728D29C196C4419003AAC57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TiledSheetMaker/TiledSheetMaker-Prefix.pch";
+				INFOPLIST_FILE = "TiledSheetMaker/TiledSheetMaker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4728D29E196C4419003AAC57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TiledSheetMaker.app/Contents/MacOS/TiledSheetMaker";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TiledSheetMaker/TiledSheetMaker-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TiledSheetMakerTests/TiledSheetMakerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		4728D29F196C4419003AAC57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TiledSheetMaker.app/Contents/MacOS/TiledSheetMaker";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TiledSheetMaker/TiledSheetMaker-Prefix.pch";
+				INFOPLIST_FILE = "TiledSheetMakerTests/TiledSheetMakerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4728D264196C4418003AAC57 /* Build configuration list for PBXProject "TiledSheetMaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4728D298196C4419003AAC57 /* Debug */,
+				4728D299196C4419003AAC57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4728D29A196C4419003AAC57 /* Build configuration list for PBXNativeTarget "TiledSheetMaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4728D29B196C4419003AAC57 /* Debug */,
+				4728D29C196C4419003AAC57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4728D29D196C4419003AAC57 /* Build configuration list for PBXNativeTarget "TiledSheetMakerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4728D29E196C4419003AAC57 /* Debug */,
+				4728D29F196C4419003AAC57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4728D261196C4418003AAC57 /* Project object */;
+}
