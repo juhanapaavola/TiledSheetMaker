@@ -18,6 +18,12 @@
 		4728D28D196C4419003AAC57 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4728D26C196C4418003AAC57 /* Cocoa.framework */; };
 		4728D295196C4419003AAC57 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4728D293196C4419003AAC57 /* InfoPlist.strings */; };
 		4728D297196C4419003AAC57 /* TiledSheetMakerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4728D296196C4419003AAC57 /* TiledSheetMakerTests.m */; };
+		47775AB11970833E00E0FC4C /* ItemArrayController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47775AB01970833E00E0FC4C /* ItemArrayController.m */; };
+		47775AB4197083C600E0FC4C /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47775AB3197083C600E0FC4C /* AppController.m */; };
+		47775ABB197083D800E0FC4C /* CollectionItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 47775AB6197083D800E0FC4C /* CollectionItemView.m */; };
+		47775ABC197083D800E0FC4C /* CollectionItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47775AB8197083D800E0FC4C /* CollectionItemViewController.m */; };
+		47775ABD197083D800E0FC4C /* ImageCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 47775ABA197083D800E0FC4C /* ImageCollectionView.m */; };
+		47775AC0197083E200E0FC4C /* ImageItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 47775ABF197083E200E0FC4C /* ImageItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +56,18 @@
 		4728D292196C4419003AAC57 /* TiledSheetMakerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TiledSheetMakerTests-Info.plist"; sourceTree = "<group>"; };
 		4728D294196C4419003AAC57 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4728D296196C4419003AAC57 /* TiledSheetMakerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TiledSheetMakerTests.m; sourceTree = "<group>"; };
+		47775AAF1970833E00E0FC4C /* ItemArrayController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemArrayController.h; sourceTree = "<group>"; };
+		47775AB01970833E00E0FC4C /* ItemArrayController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemArrayController.m; sourceTree = "<group>"; };
+		47775AB2197083C600E0FC4C /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppController.h; sourceTree = "<group>"; };
+		47775AB3197083C600E0FC4C /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppController.m; sourceTree = "<group>"; };
+		47775AB5197083D800E0FC4C /* CollectionItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionItemView.h; sourceTree = "<group>"; };
+		47775AB6197083D800E0FC4C /* CollectionItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionItemView.m; sourceTree = "<group>"; };
+		47775AB7197083D800E0FC4C /* CollectionItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionItemViewController.h; sourceTree = "<group>"; };
+		47775AB8197083D800E0FC4C /* CollectionItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionItemViewController.m; sourceTree = "<group>"; };
+		47775AB9197083D800E0FC4C /* ImageCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageCollectionView.h; sourceTree = "<group>"; };
+		47775ABA197083D800E0FC4C /* ImageCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageCollectionView.m; sourceTree = "<group>"; };
+		47775ABE197083E200E0FC4C /* ImageItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageItem.h; sourceTree = "<group>"; };
+		47775ABF197083E200E0FC4C /* ImageItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +94,8 @@
 		4728D260196C4418003AAC57 = {
 			isa = PBXGroup;
 			children = (
+				47775AAF1970833E00E0FC4C /* ItemArrayController.h */,
+				47775AB01970833E00E0FC4C /* ItemArrayController.m */,
 				4728D272196C4418003AAC57 /* TiledSheetMaker */,
 				4728D290196C4419003AAC57 /* TiledSheetMakerTests */,
 				4728D26B196C4418003AAC57 /* Frameworks */,
@@ -115,6 +135,16 @@
 		4728D272196C4418003AAC57 /* TiledSheetMaker */ = {
 			isa = PBXGroup;
 			children = (
+				47775ABE197083E200E0FC4C /* ImageItem.h */,
+				47775ABF197083E200E0FC4C /* ImageItem.m */,
+				47775AB5197083D800E0FC4C /* CollectionItemView.h */,
+				47775AB6197083D800E0FC4C /* CollectionItemView.m */,
+				47775AB7197083D800E0FC4C /* CollectionItemViewController.h */,
+				47775AB8197083D800E0FC4C /* CollectionItemViewController.m */,
+				47775AB9197083D800E0FC4C /* ImageCollectionView.h */,
+				47775ABA197083D800E0FC4C /* ImageCollectionView.m */,
+				47775AB2197083C600E0FC4C /* AppController.h */,
+				47775AB3197083C600E0FC4C /* AppController.m */,
 				4728D27E196C4419003AAC57 /* AppDelegate.h */,
 				4728D27F196C4419003AAC57 /* AppDelegate.m */,
 				4728D281196C4419003AAC57 /* MainMenu.xib */,
@@ -252,8 +282,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47775AC0197083E200E0FC4C /* ImageItem.m in Sources */,
 				4728D280196C4419003AAC57 /* AppDelegate.m in Sources */,
+				47775ABC197083D800E0FC4C /* CollectionItemViewController.m in Sources */,
+				47775ABD197083D800E0FC4C /* ImageCollectionView.m in Sources */,
+				47775ABB197083D800E0FC4C /* CollectionItemView.m in Sources */,
+				47775AB11970833E00E0FC4C /* ItemArrayController.m in Sources */,
 				4728D279196C4419003AAC57 /* main.m in Sources */,
+				47775AB4197083C600E0FC4C /* AppController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -466,6 +502,7 @@
 				4728D29C196C4419003AAC57 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4728D29D196C4419003AAC57 /* Build configuration list for PBXNativeTarget "TiledSheetMakerTests" */ = {
 			isa = XCConfigurationList;
@@ -474,6 +511,7 @@
 				4728D29F196C4419003AAC57 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
