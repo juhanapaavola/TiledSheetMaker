@@ -97,19 +97,16 @@ static int Lowest = 32;
         h = 32;
     }
     Preview = [[NSImage alloc]initWithSize:NSMakeSize(w, h)];
-    [Preview setFlipped:YES];
 
     if(Create64){
         Result64 = [[NSImage alloc]initWithSize:NSMakeSize(w*2, h*2)];
-        [Result64 setFlipped:YES];
     }
     if(Create128){
         Result128 = [[NSImage alloc]initWithSize:NSMakeSize(w*4, h*4)];
-        [Result128 setFlipped:YES];
     }
     
     int index = 0;
-    int row = 0;
+    int row = (int)[itemArray count]/columns;
     int col = 0;
     while(index<[itemArray count]){
         ImageItem* item = [itemArray objectAtIndex:index];
@@ -127,8 +124,8 @@ static int Lowest = 32;
         col++;
         if(col>5){
             col=0;
+            row--;
         }
-        row = index/columns;
     }
     if(Create32){
         Result32=Preview;
