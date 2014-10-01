@@ -20,10 +20,6 @@
 - (void)drawRect:(NSRect)dirtyRect
 {
     [super drawRect:dirtyRect];
-    if([self Selected]){
-        [[NSColor blueColor]set];
-        NSRectFill([self bounds]);
-    }
     // Drawing code here.
 }
 

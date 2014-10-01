@@ -153,12 +153,14 @@ static int Lowest = 32;
     if([dialog runModal]==NSFileHandlingPanelOKButton){
         NSURL* directory = [dialog directoryURL];
         NSString* name = [self filenameInput:@"Input basename" defaultValue:@""];
+        BOOL hasError = NO;
         if(name!=nil && [name length]>0){
             if(Create32){
                 BOOL ret = [self writeToFile:name side:Lowest directory:directory source:Result32];
                 if(!ret){
                     NSAlert* alert = [NSAlert alertWithMessageText:@"Error when saving image 32" defaultButton:@"OK" alternateButton:nil otherButton:nil informativeTextWithFormat:@""];
                     [alert runModal];
+                    hasError=YES;
                 }
             }
             if(Create64){
@@ -166,6 +168,7 @@ static int Lowest = 32;
                 if(!ret){
                     NSAlert* alert = [NSAlert alertWithMessageText:@"Error when saving image 64" defaultButton:@"OK" alternateButton:nil otherButton:nil informativeTextWithFormat:@""];
                     [alert runModal];
+                    hasError=YES;
                 }
             }
             if(Create128){
@@ -173,8 +176,13 @@ static int Lowest = 32;
                 if(!ret){
                     NSAlert* alert = [NSAlert alertWithMessageText:@"Error when saving image 128" defaultButton:@"OK" alternateButton:nil otherButton:nil informativeTextWithFormat:@""];
                     [alert runModal];
+                    hasError=YES;
                 }
             }
+        }
+        if(!hasError){
+            NSAlert* alert = [NSAlert alertWithMessageText:@"Sheets created succesfully" defaultButton:@"OK" alternateButton:nil otherButton:nil informativeTextWithFormat:@""];
+            [alert runModal];
         }
         
     }
